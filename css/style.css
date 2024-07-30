@@ -1,0 +1,102 @@
+@font-face {
+    font-family: MadimiOne-Regular ;
+    src: url(MadimiOne-Regular.ttf);
+}
+
+.navbar-nav{
+    font-family: tahoma, verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.dropdown-menu{
+    background-color: black;
+}
+
+.dropdown-menu li{
+    padding: 5px 0;
+    background-image: image();
+}
+
+.band-name{
+    font-family: MadimiOne-Regular, sans-serif, tahoma;
+    font-size: 45px;
+    margin:25px 0;
+    text-align: center;
+}
+
+.band-desc{
+    font-size: 20px;
+    padding: 0 6%;
+    text-align: center;
+}
+
+/* Media query para telas médias (de 577px a 992px) */
+@media (max-width: 576px) {
+    .band-name {
+        font-size: 25px;
+        margin:10px 0;
+    }
+    .band-desc{
+        font-size: 14px;
+    }
+}
+
+/* Media query para telas médias (de 577px a 992px) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .band-name {
+        font-size: 34px;
+        margin:15px 0;
+    }
+    .band-desc{
+        font-size: 16px;
+    }
+}
+
+.tour{
+    background-color: #a0a0a0;
+}
+
+.tour-text{
+    font-family: MadimiOne-Regular, sans-serif, tahoma;
+    font-size: 40px;
+    margin:20px 0;
+    text-align: center;
+}
+
+.tour-dates{
+    padding: 10px 70px 40px 70px;
+}
+
+.tour-dates .col-md-4{
+    margin:10px 0;
+}
+
+.discography{
+    background-image:url(../images/bgshape.jpg);
+    background-color: rgba(0,0,0,0.85);
+    background-blend-mode: multiply;
+    padding: 0px;
+}
+
+.discography-text{
+    font-family: MadimiOne-Regular, sans-serif, tahoma;
+    font-size: 40px;
+    color:white;
+    margin:25px 0;
+}
+
+.discography-album{
+    margin:0 auto;
+    padding: 15px 50px;
+}
+
+.discography-album .col {
+    display: flex;
+    justify-content: center;
+}
+
+.discography-album h3{
+    font-size: 18px;
+}
