@@ -67,10 +67,12 @@
 
 .tour-dates{
     padding: 10px 70px 40px 70px;
+    justify-content: center;
 }
 
 .tour-dates .col-md-4{
     margin:10px 0;
+    max-width: 450px;
 }
 
 .discography{
@@ -89,12 +91,12 @@
 
 .discography-album{
     margin:0 auto;
-    padding: 15px 50px;
+    padding: 15px 60px;
+    justify-content: center;
 }
 
-.discography-album .col {
-    display: flex;
-    justify-content: center;
+.discography-album .album-cover {
+    max-width: 350px;
 }
 
 .discography-album h3{
