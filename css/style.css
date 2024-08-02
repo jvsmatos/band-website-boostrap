@@ -16,7 +16,27 @@
 
 .dropdown-menu li{
     padding: 5px 0;
-    background-image: image();
+}
+
+.band-container {
+    position: relative;
+    padding: 0;
+    max-width: 100%;
+}
+
+.band-text {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.band-image {
+    width: 100%;
+    height: auto;
 }
 
 .band-name{
@@ -58,7 +78,7 @@
     background-color: #a0a0a0;
 }
 
-.tour-text{
+.tour-text h2{
     font-family: MadimiOne-Regular, sans-serif, tahoma;
     font-size: 40px;
     margin:20px 0;
@@ -79,10 +99,9 @@
     background-image:url(../images/bgshape.jpg);
     background-color: rgba(0,0,0,0.85);
     background-blend-mode: multiply;
-    padding: 0px;
 }
 
-.discography-text{
+.discography-text h2{
     font-family: MadimiOne-Regular, sans-serif, tahoma;
     font-size: 40px;
     color:white;
@@ -101,4 +120,56 @@
 
 .discography-album h3{
     font-size: 18px;
+}
+
+.contatos{
+    background-color: #a0a0a0;
+    padding: 0 25px 25px 25px;
+}
+
+.contatos-text h2{
+    font-family: MadimiOne-Regular, sans-serif, tahoma;
+    font-size: 40px;
+    margin:20px 0;
+    text-align: center;
+}
+
+.contatos-text p{
+    padding: 0px 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contatos label{
+    text-align: left;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer p{
+    color:white;
+    padding:5px 0;
+    font-size: 14px;
+}
+
+.social-icons{
+    border: 0px solid white;
+    padding:15px;
+    margin:0 auto;
+    list-style: none;
+}
+
+.social-icons li{
+    margin:15px 10px;
+}
+
+.fa{
+    font-size: 25px;
+    color: white;
+}
+
+.fa:hover{
+    color: rgb(28, 80, 158);
 }
